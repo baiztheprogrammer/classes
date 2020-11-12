@@ -18,3 +18,14 @@ class Mercury(Planet):
 class Jupiter(Planet):
     def __init__(self,position,name='Jupiter'):
         super().__init__(name,position)
+        self.temp = 230
+        self.size = 'medium'
+        self.diamond_rain = True
+    def description(self):
+        print(self.name,self.form,self.position,self.temp,self.size,self.diamond_rain)
+
+mercury = Mercury('Solar System')
+mercury.description()
+jupiter = Jupiter('Solar System')
+jupiter.description()
+
