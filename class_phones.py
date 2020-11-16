@@ -37,7 +37,8 @@ class Phone:
 
 
 
+
+
 iphone = Phone('iphone','pro max','space grey','2019','new')
 iphone.price = 1100
 iphone.loser(6)
-
